@@ -1,0 +1,89 @@
+a=10
+b=10.23
+c=False
+print("int:",a)
+print("float:",b)
+print("bool:",c)
+
+
+set={10,20,30,30,40}
+tuple=(10,20,30,40,50)
+list=[10,20,30,40]
+dict={"a":10,"b":20}
+print(set,tuple,list,dict)
+
+
+a=int(input("enter the number"))
+sqr=a*a
+print(sqr)
+
+
+a=int(input("enter your first number"))
+b=int(input("enter your second number"))
+c=int(input("eneter your third number"))
+sum=a+b+c
+average=sum//3
+print(average)
+
+
+a=float(input("enter your number:"))
+mul=a*10
+print(mul)
+
+
+n=float(input("enter no of mins"))
+sec=min*60
+print(sec)
+
+
+a=float(input("enter your first number"))
+b=float(input("enter your second number"))
+c=a*b
+print(c)
+
+
+a=float(input("enter your first number"))
+b=float(input("enter your second number"))
+c=float(input("enetr your third number"))
+d=max(a,b,c)
+print("max number:",d)
+
+
+n=int(input("enter n value:"))
+c=n+1
+sum=n*c
+print(sum)
+
+
+n=int(input("enter n value:"))
+c=n+1
+sum=n**2
+print(sum)
+
+
+n=int(input("enter n value:"))
+c=n+1
+d=n*c
+sum=d//2
+print(sum)
+
+
+a=float(input("enter a number"))
+if (a>0):
+    print("postive number")
+elif(a<0):
+    print("negative number")
+else:
+    print("zero")
+
+
+a=int(input("enter the number:"))
+if (a%2==0):
+    print("even")
+else:
+    print("odd")
+
+
+a=int(input("enter the number:"))
+if(a%5==0 and a%11==0):
+    print("divisible by 11 and 5")
