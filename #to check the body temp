@@ -1,0 +1,7 @@
+t=int(input("enter temp"))
+if t>36:
+    print("fever")
+elif t<36:
+    print("normal temp")
+else:
+    print("cold")
