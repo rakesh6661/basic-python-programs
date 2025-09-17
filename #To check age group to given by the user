@@ -1,0 +1,7 @@
+n=int(input("enter your age"))
+if n<=10:
+    print("child")
+elif n>=10 and n<=21:
+        print("teen age")
+else:
+    print("Adult")
