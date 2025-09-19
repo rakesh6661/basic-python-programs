@@ -1,0 +1,15 @@
+def linear_search(arr,target):
+    lb=0
+    ub=len(arr)-1
+    while lb<=ub:
+        if arr[lb]==target:
+            return lb 
+        lb=lb+1
+    return -1  
+arr=[10,20,30,40]
+target=int(input("Enter the element to search:"))
+result = linear_search(arr, target)
+if result!=-1:
+    print(f"Element found at index {result}")
+else:
+    print("Element not found")
